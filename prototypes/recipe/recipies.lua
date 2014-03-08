@@ -3,6 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "pipe-buried-half",
+    enabled = "false",
     ingredients =
     {
       {"pipe", 1},
@@ -13,6 +14,7 @@ data:extend(
   {
     type = "recipe",
     name = "pipe-buried-full",
+    enabled = "false",
     ingredients =
     {
       {"pipe-buried-half", 1},
@@ -24,6 +26,7 @@ data:extend(
   {
     type = "recipe",
     name = "pipe-to-ground-long",
+    enabled = "false",
     ingredients =
     {
       {"pipe-to-ground", 2},
@@ -35,6 +38,7 @@ data:extend(
   {
     type = "recipe",
     name = "pipe-to-ground-tap",
+    enabled = "false",
     ingredients =
     {
       {"pipe", 10},
